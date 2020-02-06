@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="56dp"
+            android:text="Equivalent CO2 in kilograms:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+
+        <EditText
+            android:id="@+id/co2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/design_default_color_secondary_variant"
+            android:layout_margin="6dp"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/resultsCar"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="56dp"
+            android:text="Car miles equivalent:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+
+        <EditText
+            android:id="@+id/car"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/design_default_color_secondary_variant"
+            android:layout_margin="6dp"
+            android:textSize="26sp" />
+
+
+    </LinearLayout>
+</LinearLayout>
